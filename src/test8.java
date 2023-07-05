@@ -15,11 +15,10 @@ public class test8 {
         for (int i = a + 1; i < b; i++) {
             if (i % 3 == 0) {
                 System.out.println(i + " Fizz");
-                if (i % 5 == 0) {
-                }
+            } else if (i % 5 == 0) {
+
                 System.out.println(i + " Buzz");
-            }
-            if ((i % 5 == 0) && (i % 3 == 0)) {
+            } else if ((i % 5 == 0) && (i % 3 == 0)) {
                 System.out.println(i + " Fizz Buzz");
             } else {
                 System.out.println(i + " ");
